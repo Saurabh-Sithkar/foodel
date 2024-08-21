@@ -3,7 +3,10 @@
     "builds": [
       {
         "src": "server.js",
-        "use": "@now/node"
+        "use": "@vercel/node",
+        "config": {
+            "nodeVersion": "18.x"
+        }
       }
     ],
     "routes": [
