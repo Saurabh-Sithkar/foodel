@@ -4,7 +4,10 @@
   "main": "server.js",
   "type":"module",
   "scripts": {
-    "server" : "nodemon server.js"
+    "server" : "nodemon server.js",
+    "build": "echo 'Building the project...' && npm install",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
